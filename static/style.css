@@ -1,0 +1,23 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.gallery img {
+    width: calc(33% - 1rem);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, blue, alpha);
+}
+
+.adsbygoogle {
+    margin-top: 2rem;
+}
