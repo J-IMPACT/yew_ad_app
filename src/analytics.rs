@@ -4,7 +4,7 @@ use yew::prelude::*;
 
 #[function_component(GoogleAnalytics)]
 pub fn google_analytics() -> Html {
-    let ga_id: String = std::env::var("GA_TRACKING_ID").unwrap_or("GA_TRACKING_ID_NOT_FOUND".to_string());
+    let ga_id: String = std::env::var("GA_TRACKING_ID").unwrap_or("G-XXXXXXXXXX".to_string());
 
     use_effect(move || {
         let document = window().unwrap().document().unwrap();

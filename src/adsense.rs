@@ -2,8 +2,8 @@ use yew::prelude::*;
 
 #[function_component(AdsenseAd)]
 pub fn adsense_ad() -> Html {
-    let client_id: String = std::env::var("ADSENSE_CLIENT_ID").unwrap_or("ADSENSE_CLIENT_ID_NOT_FOUND".to_string());
-    let slot_id: String = std::env::var("ADSENSE_SLOT_ID").unwrap_or("ADSENSE_SLOT_ID_NOT_FOUND".to_string());
+    let client_id: String = std::env::var("ADSENSE_CLIENT_ID").unwrap_or("ca-pub-XXXXXXXXXXXXXXXX".to_string());
+    let slot_id: String = std::env::var("ADSENSE_SLOT_ID").unwrap_or("XXXXXXXXXX".to_string());
 
     html! {
         <div>

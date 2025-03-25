@@ -1,5 +1,4 @@
 use yew::prelude::*;
-use web_sys::window;
 
 mod adsense;
 mod analytics;
